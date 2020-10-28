@@ -24,7 +24,7 @@ alert(ticTac([[0, 0, 1],
 //Task 3------------------------------------------------------------------------
 function meet(x, w){
   if (w == 0) { return 'Game On' }
-  var res = [], total = 0
+  let res = [], total = 0
   for (let i = 0; i < x.length; i++) {
     let chair = x[i][1] - x[i][0].length
     if (Math.sign(chair) == -1) { chair = 0 }
